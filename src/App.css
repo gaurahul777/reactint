@@ -1,42 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+
+
+/* #######  checkbox design ######### */
+.choose-checkbox_box{
+  width:100%;
+  height:auto;
+  padding:4px;
+  border:2px solid #7f56d9;
+}
+.choose-checkbox_box__heading{
+  width:100%;
+  background-color: #007aff;
+  display: flex; justify-content: space-between;
+  align-items: center;
+  
+  
+}
+.choose-checkbox_box__heading h3{
+  color:white;
+  font-family:'Inter';
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+.choose-checkbox_box__heading--container{
+  display: flex;
+  gap:2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.choose-checkbox_box__heading--container___circle{
+  background-color: white;
+  width:3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+.choose-checkbox_box__checkboxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-input__form{
+  background-color: #d6c7f8;
+  border-radius: 24px;
+  width:80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.details-input__form--container{
+  display: flex;
+  flex-wrap: wrap;
   padding: 2rem;
-  text-align: center;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.details-input__form--input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 20px;
+  margin-top: 20px;
+  width:40%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formAll--data{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.formSubmit-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  
 }
 
-.card {
-  padding: 2em;
+.alldata-details{
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.alldata-details__showing{
+  display: flex;
+  gap:2rem;
+}
+.align-data{
+  display: flex;
+  flex-direction: column;
 }
